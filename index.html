@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Meilleurs vœux – Stade de France 2015</title>
+		<meta name="description" content="Carte de vœeu interactive du Stade de France 2015">
+		<meta name="author" content="Iboo Interactive & Olivier Charvoz">
+		
+		<link rel="stylesheet" href="css/styles.css?v=1.0">
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		<audio id="audio" preload="auto">
+	   		<source src="audio/audio.wav" type="audio/wav">
+	   		<source src="audio/audio.mp3" type="audio/mp3">
+	   		<source src="audio/audio.ogg" type="audio/ogg">
+	  	</audio>
+		<div id="container">
+			<video id="video" width="100%" preload="auto" autoplay="autoplay">
+		   		<source src="video/video.mp4" type="video/mp4">
+				Votre navigateur ne peut afficher cette vidéo.
+		  	</video>
+		  	<div id="loading">
+		  		<img src="img/loading.gif" alt="loading" />
+		  	</div>
+		  	<div id="links" style="display: none;">
+		  		<ul>
+		  			<li><a id="facebook" href="https://www.facebook.com/StadeFrance" target="_blank"><img src="img/bt_facebook.png" alt="Facebook" /></a></li>
+		  			<li><a id="twitter" href="https://twitter.com/stadefrance" target="_blank"><img src="img/bt_twitter.png" alt="Twitter" /></a></li>
+		  			<li><a id="instagram" href="http://instagram.com/stadefrance" target="_blank"><img src="img/bt_instagram.png" alt="Instagram" /></a></li>
+		  			<li><a id="youtube" href="https://www.youtube.com/user/StadeFranceCSDF" target="_blank"><img src="img/bt_youtube.png" alt="YouTube" /></a></li>
+		  			<li><a id="telecharger" href="http://accueil.stadefrance.com/files/files/programmation/programmation-noel_2015.pdf" target="_blank"><img src="img/bt_telecharger.png" alt="Notre programmation" /></a></li>
+		  			<li><a id="site" href="http://stadefrance.com" target="_blank"><img src="img/bt_site.png" alt="stadefrance.com" /></a></li>
+		  		</ul>
+		  	</div>
+	  	</div>
+		
+		<script type="text/javascript" src="lib/jquery-2.1.3.min.js"></script>
+	  	<script type="text/javascript" src="js/scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,102 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#container {
+	position: relative;
+	width: 100%;
+	max-width: 1218px;
+	height: auto !important;
+	max-height: 596px;
+	margin: auto;
+}
+
+#video {
+	width: 100%;
+}
+
+#loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+}
+
+#loading img {
+	height: 50px;
+}
+
+@media screen and (min-width: 992px) {
+	#links {
+		position: absolute;
+		width: 100%;
+		bottom: 3%;
+	}
+	
+	#links ul {
+		position: relative;
+		display: block;
+		padding: 0;
+		margin: auto;
+		text-align: right;
+	}
+	
+	#links ul li {
+		display: inline;
+	}
+	
+	#links ul li a img {
+		vertical-align: middle;
+	}
+	
+	#facebook img, #twitter img, #instagram img, #youtube img {
+		width: 3%;
+	}
+	
+	#telecharger img {
+		width: 8%;
+	}
+	
+	#site img {
+		width: 20%;
+	}
+	
+	#site {
+		margin-left: 10%;
+		margin-right: 5%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#links ul {
+		padding: 0;
+		margin: auto;
+		text-align: center;
+	}
+	
+	#links ul li {
+		display: inline;
+		margin: 10px;
+	}
+	
+	#links ul li a img {
+		vertical-align: middle;
+	}
+	
+	#facebook img, #twitter img, #instagram img, #youtube img, #site img {
+		height: 80px;
+	}
+	
+	#telecharger img {
+		height: 250px;
+	}
+}
